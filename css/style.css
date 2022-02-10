@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Cambria;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+h1, h2 {
+	padding: 10px;
+	color: #07575B;
+}
+
+button {
+	background-color: #07575B;
+	color: #F1F1F2;
+	padding: 10px;
+	font-size: 15px;
+	width: 170px;
+}
+
+.container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1150px;
+}
+
+.header { 
+	background-color: white;
+	color: #07575B;
+}
+
+.logo,
+.name_site,
+.contacts {
+	margin: 5px;
+	padding: 5px;
+	display: inline-block;
+	vertical-align: middle;
+	width: calc(33.00% - 10px - 10px);
+}
+
+.logo {
+	text-align: left;
+}
+
+.logo img {
+	width: 150px;
+}
+
+.name_site {
+	text-align: center;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+
+.contacts {
+	text-align: right;
+	font-size: 16px;
+}
+
+.contacts .phone {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.navigation {
+	background-color: #66A5AD;
+	
+}
+
+.navigation ul{
+	list-style: none;
+}
+
+.navigation li{
+	display: inline-block;
+	margin-right: 41px;
+}
+
+.navigation a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+
+.navigation a:hover {
+	background-color: #07575B;
+	color: #2F2E33;
+}
+
+.main {
+	background-color: #D5D6D2;
+}
+
+.info_1 {
+	text-align: justify;
+	background-color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.italic_bold {
+	font-style: italic;
+	font-weight: bold;
+}
+	
+.padding-left {
+	padding-left: 30px;
+}
+	
+.footer {
+	background-color: #003B46;
+	color: white;
+}
+
